@@ -1,5 +1,5 @@
 // src/utils/api.js
-export const apiUrl = "http://localhost:8000/api"; // Replace with your backend API
+export const apiUrl = "https://ATS-System.up.railway.app/api"; // Replace with your backend API
 
 export const request = async (endpoint, method = "GET", body = null) => {
   const token = localStorage.getItem("token");
